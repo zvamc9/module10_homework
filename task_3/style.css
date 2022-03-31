@@ -1,0 +1,48 @@
+.chat_input input {
+  width: 230px;
+  height: 25px;
+  border-style: solid;
+  border-color: #BAD7EC;
+}
+
+#chat {
+  width: 400px;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+.chat_output {
+  margin: 10px 0;
+  border-style: solid;
+  padding: 10px;
+  height: 150px;
+  overflow-y: scroll;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  border-color: #BAD7EC; 
+}
+
+.chat_output > div {
+  max-width: 80%;
+  padding: 5px 10px;
+  margin: 5px 0;
+  color: #e34bfa;
+}
+
+.chat_output .sent {
+  color: black;
+  align-self: flex-start;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #BAD7EC;
+  padding: 5px;
+}
+
+.btn-send, .j-btn-test {
+  height: 31px;
+  background-color: #BAD7EC;
+  border: none;
+  cursor: pointer;
+}
